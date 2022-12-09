@@ -9,6 +9,7 @@
 <body>
     <div class="flex-container">
         <h1>Blackjack</h1>
+        <p>Goal kamu hanya satu yaitu mendapatkan angka 21. </p>
         <h2 id="pesan-el"></h2>
         <h3 id="kartu-el">Kartu:</h3>
         <h3 id="jumlah-el">Jumlah:</h3>
@@ -16,6 +17,7 @@
     <div class="flex-btn">
         <button id="start-btn" onclick="startGame()">START GAME</button>
         <button id="draw-btn" onclick="drawKartuBaru()">DRAW CARD</button>
+        <button id="reset-btn" onClick="window.location.reload();">RESET</button>
     </div>
     <script src="./index.js"></script>
 </body>
