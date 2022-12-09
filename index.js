@@ -60,7 +60,7 @@ function drawKartuBaru() {
     jumlah += drawKartu
     kartuUtama.push(drawKartu)
     // membuat if logic agar hanya bisa draw jika belum kalah
-    if (masihHidup === true) {
+    if (masihHidup === true && sudahStart === true) {
         renderGame()
     }
 }
